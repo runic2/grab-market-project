@@ -11,7 +11,7 @@
   border-bottom: 1px solid gray;
 }
 #body {
-  height: 100%;
+  height: 100vh;
   /* background-color: blue; */
   width: 1024px;
   margin: 0 auto;
@@ -84,4 +84,11 @@
 }
 .product-avatar {
   width: 20px;
+}
+
+.product-link {
+  color: inherit;
+  /* a tag에 영향 받지 않고 글자 그대로 */
+  text-decoration: none;
+  /* a tag 해당 text 밑줄 제거 */
 }
