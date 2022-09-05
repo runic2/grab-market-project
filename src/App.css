@@ -1,6 +1,44 @@
+* {
+  /* 모든 tag */
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+}
 html,
 body,
 #root,
 #root > div {
   height: 100%;
+}
+#header-area {
+  width: 1024px;
+  height: 100%;
+  /* background-color: orange; */
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header-area img {
+  width: 128px;
+  height: 36px;
+}
+#header {
+  height: 64px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+#body {
+  height: 100vh;
+  /* background-color: blue; */
+  width: 1024px;
+  margin: 0 auto;
+  /* 자식이 부모로 부터 가운데 정렬하는 법. */
+  padding-bottom: 24px;
+}
+#footer {
+  height: 100px;
+  background-color: rgb(230, 230, 230);
 }
