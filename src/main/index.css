@@ -1,25 +1,8 @@
-* {
-  /* 모든 tag */
-  margin: 0px;
-  padding: 0px;
-}
-
 #banner {
   height: 200px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
-#header-area {
-  width: 1024px;
-  height: 100%;
-  /* background-color: orange; */
-  /* margin: 0 auto; */
-  display: flex;
-  align-items: center;
-}
-#header-area > img {
-  width: 128px;
-  height: 36px;
-}
+
 #banner > img {
   width: 100%;
   height: 100%;
@@ -45,6 +28,7 @@
 .product-img {
   width: 100%;
   height: 160px;
+  object-fit: contain;
 }
 .product-contents {
   display: flex;
@@ -62,7 +46,6 @@
 .product-seller {
   display: flex;
   align-items: center;
-  margin-top: 1px;
 }
 .product-avatar {
   width: 20px;
@@ -73,4 +56,16 @@
   /* a tag에 영향 받지 않고 글자 그대로 */
   text-decoration: none;
   /* a tag 해당 text 밑줄 제거 */
+}
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-date {
+  font-size: 10px;
+  color: rgb(136, 136, 136);
+}
+#product-headline {
+  margin-top: 16px;
 }
